@@ -1,7 +1,16 @@
+import { Header, Hero, About, WhyUs, Programs, Testimonials, Contact, Footer } from './components'
+
 function App() {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className="min-h-screen bg-white">
+      <Header />
+      <Hero />
+      <About />
+      <WhyUs />
+      <Programs />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </div>
   )
 }
